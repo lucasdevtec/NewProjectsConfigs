@@ -20,7 +20,7 @@ pnpm-debug.log*
 
 
 # ==========================================
-# 💻 SISTEMA OPERACIONAL & EDITORES (Extra)
+# 💻 SISTEMA OPERACIONAL & EDITORES
 # ==========================================
 # Windows / macOS arquivos ocultos do sistema
 .DS_Store
@@ -30,7 +30,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Arquivos de variáveis de ambiente locais (Contêm senhas e chaves de API!)
+# Arquivos de variáveis de ambiente locais
 .env
 .env.local
 .env.*.local
