@@ -1,0 +1,36 @@
+# ==========================================
+# 📦 TYPESCRIPT / JAVASCRIPT / NODE
+# ==========================================
+# Dependências instaladas (Pasta gigante de pacotes)
+node_modules/
+jspm_packages/
+
+# Arquivos de logs de erro do npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Pastas de build/saída comuns (Compilação do TS para JS)
+/dist/
+/build/
+.next/
+.nuxt/
+.out/
+
+
+# ==========================================
+# 💻 SISTEMA OPERACIONAL & EDITORES (Extra)
+# ==========================================
+# Windows / macOS arquivos ocultos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais de IDEs (VS Code / PyCharm / RustRover)
+.vscode/
+.idea/
+
+# Arquivos de variáveis de ambiente locais (Contêm senhas e chaves de API!)
+.env
+.env.local
+.env.*.local
