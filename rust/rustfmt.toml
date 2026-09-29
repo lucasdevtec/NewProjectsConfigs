@@ -1,0 +1,21 @@
+# --- Configurações Estáveis (Funcionam em qualquer Rust) ---
+
+# Organiza automaticamente os 'use' (importações) em ordem alfabética
+reorder_imports = true
+
+# Define o limite máximo de caracteres por linha (o padrão nativo já é 100)
+max_width = 100
+
+# Força o uso de chaves em blocos de controle mesmo se tiverem apenas uma linha
+control_brace_style = "AlwaysNextLine"
+
+
+# --- Configurações Instáveis (Exigem o compilador Nightly) ---
+# Nota: Para usar estas, você precisa rodar: cargo +nightly fmt
+
+# Agrupa importações granulares da mesma biblioteca em uma linha só
+# Ex: transforma use std::fs; use std::io; em use std::{fs, io};
+imports_granularity = "Crate"
+
+# Remove espaços em branco desnecessários no final das linhas
+trim_trailing_spaces = true
