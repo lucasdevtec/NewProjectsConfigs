@@ -30,3 +30,19 @@ target
 
 # Arquivos de travas locais (mantenha se for uma aplicação, ignore se for biblioteca)
 # Cargo.lock
+
+# ==========================================
+# 💻 SISTEMA OPERACIONAL & EDITORES
+# ==========================================
+# Windows / macOS arquivos ocultos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais de IDEs (VS Code / PyCharm / RustRover)
+.vscode/
+.idea/
+
+# Arquivos de variáveis de ambiente locais
+.env
+.env.local
+.env.*.local
