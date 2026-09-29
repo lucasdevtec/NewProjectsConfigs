@@ -1,0 +1,13 @@
+[tool.ruff]
+# Alvo da versão do Python e tamanho máximo da linha
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+# E/W = Estilo (Pycodestyle), F = Bugs lógicos (Pyflakes), I = Organizar Imports (isort)
+select = ["E", "F", "I", "W"]
+ignore = []
+
+[tool.ruff.format]
+# Força o uso de aspas duplas (padrão adotado pela comunidade Black)
+quote-style = "double"
